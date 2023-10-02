@@ -1,0 +1,5 @@
+<div class="habitacion" *ngFor="let habitacion of habitaciones">
+    <img [src]="habitacion.imagen" alt="{{ habitacion.nombre }}">
+    <button (click)="reservarHabitacion(habitacion)">Reservar</button>
+  </div>
+  
